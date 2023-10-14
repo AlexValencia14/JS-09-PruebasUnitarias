@@ -1,0 +1,12 @@
+NOTAS DE CLASE PACKAGE.JSON
+
+	Se agrego desde la linea 6 a la 8
+
+NOTAS DE CLASE CALCULADORA.TEST.JS
+
+	forma de testear:
+		const archivo = require('../ruta del archivo a Testar');
+
+		test('Descripción',()=>{
+			expect ( archivo.funcionATestar(valor1, valor2).toBe(resultadoEsperado);
+			})
